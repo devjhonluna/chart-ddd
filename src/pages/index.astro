@@ -1,0 +1,26 @@
+---
+import TabNav from '../componentes/TabNav.jsx'
+import Header from '../componentes/astro/Header.astro'
+import Footer from '../componentes/astro/Footer.astro'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="Infografia interactiva del manga de dandadan">
+		<title>Astro</title>
+		<style is:global>
+			main canvas {
+				@apply min-h-72;
+			}
+		</style>
+	</head>
+	<body class="bg-[#020d19] text-red-500 grid grid-rows-[auto_1fr_auto] min-h-dvh p-4 gap-2">
+		<Header/>
+		<TabNav client:load/>
+		<Footer/>
+	</body>
+</html>
