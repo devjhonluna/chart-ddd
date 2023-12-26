@@ -16,7 +16,7 @@ const Introduccion = () => {
         </CardBody>
         <CardFooter className='text-sm sm:text-lg text-justify flex-col'>
             <p>la informacion recopilada ha sido obtenida de estos usuarios en la red social twitter:</p>
-            <ul className='flex flex-row gap-2'>
+            <ul className='flex flex-col sm:flex-row gap-2'>
                 <li><a href="https://twitter.com/Josu_ke" target="_blank" rel="noopener noreferrer">Josu ke</a></li>
                 <li><a href="https://twitter.com/al_mavivi" target="_blank" rel="noopener noreferrer">Oricon and Shoseki Manga Sales</a></li>
                 <li><a href="https://twitter.com/Dandadanverse" target="_blank" rel="noopener noreferrer">Dandadanverse</a></li>
