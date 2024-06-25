@@ -10,6 +10,9 @@ const volumeSales=[
     {id:9, title:"volumen 9", cantidad:110328, añoFiscal:2023},
     {id:10, title:"volumen 10", cantidad:96617, añoFiscal:2023},
     {id:11, title:"volumen 11", cantidad:89280, añoFiscal:2023},
+    {id:12, title:"volumen 12", cantidad:84932, añoFiscal:2024},
+    {id:13, title:"volumen 13", cantidad:80155, añoFiscal:2024},
+    {id:14, title:"volumen 14", cantidad:69984, añoFiscal:2024},
 ]
 
 const circulationDate=[
